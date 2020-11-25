@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url("/assets/netflix-bg.jpg"); */
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/84b453b4-0d46-4f2c-bd44-81aa6c19c6b5/c548520c-3aaf-409c-bdce-11393df71cf1/BR-pt-20201116-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* z-index: -1; */
+  flex-direction: column;
+}
+body::after {
+  content: "";
+  background: #000000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.6;
+}
+
+
+header {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  flex: 1;
+}
+
+.logo {
+  width: 192px;
+  height: 52px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+main.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.login-container {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 8%;
+  width: 460px;
+  padding: 65px;
+  align-items: center;
+  border-radius: 2px;  
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container h1 {
+  font-size: 36px;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.form-container form input {
+  height: 55px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 0;
+  padding: 20px;
+}
+
+.form-container .btn-enviar {
+  height: 50px;
+  width: 100%;
+  border-radius: 4px;
+  border: 0;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  background-color: #e50914;
+  font-size: 1.1em;
+  font-weight: 700;
+  /* color: #bebebe; */
+  color: #ffffff;
+}
+
+.footer-form-lvl1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.footer-form-lvl1 div {
+  color: #bebebe;
+}
+
+
+#lembrar {
+  margin-right: 5px;
+}
+
+#ajuda {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+#ajuda:hover {
+  color: #bebebe;
+  text-decoration: underline;
+}
+
+#logo-fb {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.footer-form-lvl2 {
+  font-size: 14px;
+  margin-top: 45px;
+  color: #bebebe;
+  margin-bottom: 40px;
+}
+
+
+.footer-form-lvl2 img, span, small {
+  display: inline-block;
+  margin-top: 10px;  
+}
+
+#novo-aqui, 
+#assine {
+  font-size: 17px;
+}
+
+#assine {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#assine:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#saiba-mais {
+  color: #0071eb;
+  text-decoration: none;
+}
+
+#saiba-mais:hover {
+  color: #0071eb;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #bebebe;
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+}
+
+footer p {
+  margin-bottom: 30px;
+}
+
+#telefone {
+  color: #bebebe;
+  text-decoration: none;
+}
+
+#telefone:hover {
+  color: #bebebe;
+  text-decoration: underline;
+}
+
+footer a {
+  color: #bebebe;
+  text-decoration: none;
+  margin-right: 40px;
+}
+
+footer a:hover {
+  color: #bebebe;
+  text-decoration: underline;
+}
+
+footer ul {
+  font-size: 14px;
+  list-style: none;
+}
+
+.footer-links {
+  max-width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
