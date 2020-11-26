@@ -46,7 +46,7 @@ header {
   left: 30px;
 }
 
-main.container {
+.container-main {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -58,6 +58,7 @@ main.container {
   color: #ffffff;
   background-color: rgba(0, 0, 0, 0.8);
   margin-top: 8%;
+  margin-bottom: 5%;
   width: 460px;
   padding: 65px;
   align-items: center;
@@ -169,7 +170,7 @@ main.container {
 
 footer {
   background-color: rgba(0, 0, 0, 0.8);
-  color: #bebebe;
+  color: #757575;
   width: 100%;
   margin-top: 50px;
   padding-top: 30px;
@@ -182,23 +183,23 @@ footer p {
 }
 
 #telefone {
-  color: #bebebe;
+  color: #757575;
   text-decoration: none;
 }
 
 #telefone:hover {
-  color: #bebebe;
+  color: #757575;
   text-decoration: underline;
 }
 
 footer a {
-  color: #bebebe;
+  color: #757575;
   text-decoration: none;
-  margin-right: 40px;
+  margin-right: 90px;
 }
 
 footer a:hover {
-  color: #bebebe;
+  color: #757575;
   text-decoration: underline;
 }
 
@@ -208,9 +209,13 @@ footer ul {
 }
 
 .footer-links {
-  max-width: 60%;
+  max-width: 80%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  /* justify-content: space-between; */
+}
+
+.footer-links section li {
+  margin-bottom: 10px;
+  
 }
